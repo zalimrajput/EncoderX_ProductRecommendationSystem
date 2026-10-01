@@ -1,0 +1,13 @@
+# Secrets — never commit
+.env
+
+# Virtualenv
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local artifacts
+local.db
+uvicorn_*.log

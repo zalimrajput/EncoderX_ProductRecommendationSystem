@@ -1,0 +1,29 @@
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Editors / IDEs ───────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Secrets (safety net; backend/.gitignore also covers these) ──────
+.env
+!.env.example
+
+# ── Python artifacts ─────────────────────────────────────────────────
+__pycache__/
+*.pyc
+venv/
+local.db
+
+# ── Logs ─────────────────────────────────────────────────────────────
+*.log
+
+# ── Node artifacts ───────────────────────────────────────────────────
+node_modules/
+
+# ── Temp / debug leftovers ───────────────────────────────────────────
+login.json
+reg.json
+backend/_tmp_diag.py
